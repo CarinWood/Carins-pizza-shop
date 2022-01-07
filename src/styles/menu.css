@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: whitesmoke;
+}
+
+.menuTitle {
+    color: black!important;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 200px;
+    text-align: center;
+}
+
+.menu-list {
+    color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    width: 27%;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.pizza-name {
+    color: black!important;
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    letter-spacing: 0.2px;
+    word-spacing: 5px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.price {
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.pizza-image {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 43vh;
+}
+
+
+@media screen and (max-width: 992px) {
+    .menu-list {
+        flex-direction: column;
+    }
+
+    .menu-item {
+        width: 70%;
+    }
+
+}
